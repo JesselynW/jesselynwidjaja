@@ -121,13 +121,14 @@ section{
 
 .home{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     /* scroll-snap-align: start; */
+    text-align: center;
 }
 
 .home-content h2{
-    font-size: 3.2rem;
+    font-size: 4rem;
     font-weight: 700;
 }
 
@@ -277,20 +278,20 @@ span{
 
 .portofolio .list .item .content .title{
     font-weight: bold;
-    font-size: 5.6rem;
+    font-size: 4rem;
     line-height: 1.3em;
 }
 
 .portofolio .list .item .content .topic{
     font-weight: bold;
-    font-size: 3.2rem;
+    font-size: 2rem;
     line-height: 1.3em;
     color: var(--second-bg-color);
 }
 
 .portofolio .list .item .content .des{
     padding: 6% 0;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 
 .portofolio .list .item .content .button a{
